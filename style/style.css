@@ -1,0 +1,222 @@
+body {  
+
+background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url("./images/bg3.jpg") no-repeat;
+
+
+}
+#navbar {
+    font-size: 30px;
+    font-weight: 600;
+
+}
+
+#head-content{
+    color:black;
+    text-align: center;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top: 100px; 
+    width:35%;
+    margin:auto;
+    height: auto;
+    border: white;
+    border-radius:25px;
+
+
+}
+
+.heading{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#about {
+   padding-top: 20px;
+}
+
+.nav-link {
+    color:black;
+}
+
+.port {
+    border-radius: 50%;
+    border: 6px #ccc solid;
+    width: 40%;
+    
+  }
+  .icon-row {
+    margin: 10px auto;
+    width: 100%;
+  }
+  .icon-row i {
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 44px;
+    margin: 0px 20px;
+    padding: 20px 30px;
+    transition: all 400ms ease-in-out;
+    color: black;
+  }
+  .icon-row i:hover {
+    background: #FFF;
+    color: #ca5549;
+  }
+  .fixed-content {
+    width: auto;
+  
+    float: none;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 40px;
+    text-align: center;
+  }
+  .second {
+   
+    color: #888;
+    width: 100%;
+    background-color: #374054;
+  }
+
+  .footer {
+    margin-top: 10px;
+    color: #666;
+    background: #eee;
+  }
+  .footer .blue i {
+    color:gray;
+  }
+  .footer .blue i:hover {
+    background: #3c7fc6;
+    color: #d2d6dc;
+  }
+  .footer .fa-chevron-up {
+    cursor: pointer;
+    font-size: 34px;
+    margin: 40px 0 0 0;
+    position: relative;
+    top: 0px;
+  }
+  .footer .fa-chevron-up:hover {
+    -webkit-animation: up 1s infinite;
+    /* Chrome, Safari, Opera */
+    animation: up 1s infinite;
+  }
+  @keyframes up {
+    0% {
+      top: 0px;
+    }
+    25% {
+      top: 5px;
+    }
+    50% {
+      top: 0px;
+    }
+    75% {
+      top: 5px;
+    }
+    100% {
+      top: 0px;
+    }
+  }
+  .fa-chevron-down {
+    font-size: 34px;
+margin: 1% 48.5%;
+   
+  }
+  .fa-chevron-down:hover {
+    background-color: #888;
+    border-radius: 50%;
+  }
+ 
+  .experience, .education, .project, .skills {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    padding-top:5px;
+    text-decoration:underline bisque;
+  }
+
+  .exp-content, .college {
+    display: block;
+    margin-left:250px;
+  }
+
+  .area-content {
+    background-color:gray;
+    color: #eee;
+    margin:20px auto 30px;
+    padding-bottom:20px;
+    border: solid #d2d6dc 10px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-size: 20px;
+
+
+  }
+  
+ .work-date{
+  float:right;
+  color:#d2d6dc;
+ } 
+ 
+ .college{
+  margin:5px auto;
+  border: solid blanchedalmond 2px;
+width:70% ;
+text-align: left;
+}
+
+.display-side {
+  margin-right: 200px;
+}
+
+
+.college h3, .display-side h3{
+  font-weight: 500;
+  float: left;
+  margin: 0;
+  color: #374054;
+}
+
+.college span {
+  color:#d2d6dc;
+  float: right
+}
+
+.college h4, .exp-content h4 {
+  color:burlywood;
+  clear: both;
+  font-weight: 500;
+  margin: 0 0 15px 0
+}
+.project-title {
+  color:#374054;
+  text-align: center;
+  font-weight: 800; 
+  font-family:cursive;
+}
+
+.project-img{
+  display: block;
+  margin-left: 10%;
+  margin-right: auto;
+  width: 100%;
+  
+}
+
+.project-desc {
+  color:#d2d6dc;
+  font-style: italic;
+}
+
+#skills li {
+  display: inline-block;
+  margin: 7px;
+  padding: 5px 5px;
+  color: #374054;
+  background: #e4e4ea;
+  list-style: none;
+  cursor: default;
+  font-size: 1.2em;
+  border-radius: 45%;
+}
+
+
