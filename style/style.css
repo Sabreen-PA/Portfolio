@@ -211,12 +211,25 @@ text-align: left;
   display: inline-block;
   margin: 7px;
   padding: 5px 5px;
-  color: #374054;
-  background: #e4e4ea;
   list-style: none;
-  cursor: default;
-  font-size: 1.2em;
-  border-radius: 45%;
+  cursor: default
+
+}
+.fa-brands, .fa-solid {
+  margin-left: 20px;
 }
 
 
+.skill-icondesc {
+  font-size: 10px;
+  color:black;
+  text-align: center;
+  font-weight: bold;
+}
+
+.icon-bg {
+  background-color: white;
+  border-radius: 10%;
+padding-top: 5px;
+
+}
